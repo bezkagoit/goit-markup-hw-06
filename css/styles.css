@@ -282,6 +282,7 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   margin: 0 auto;
+  padding-bottom: 72px;
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -316,6 +317,7 @@ h6 {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    padding-bottom: 36px;
   }
 
   .button {
@@ -344,6 +346,9 @@ h6 {
     padding-top: 188px;
     padding-bottom: 188px;
   }
+  .hero-title {
+    padding-bottom: 48px;
+  }
 }
 
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
@@ -357,7 +362,7 @@ h6 {
 }
 
 .button {
-  margin: 72px auto 0;
+  margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -1002,7 +1007,6 @@ input::placeholder {
 
 .button-modal {
   margin: auto;
-
   display: block;
   min-width: 169px;
   height: 56px;
