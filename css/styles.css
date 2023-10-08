@@ -70,8 +70,6 @@ h6 {
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 736px;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -156,13 +154,7 @@ h6 {
     display: none;
   }
 
-  .header-address {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-
   .address-item:not(:last-child) {
-    padding-bottom: 12px;
     margin: 0;
   }
 }
@@ -280,7 +272,7 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -315,7 +307,7 @@ h6 {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 
   .button {
@@ -345,7 +337,7 @@ h6 {
     padding-bottom: 188px;
   }
   .hero-title {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
   }
 }
 
@@ -393,6 +385,7 @@ h6 {
 .advantage-section {
   background-color: var(--color-background);
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .advantage-icon {
@@ -509,10 +502,18 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 72px;
 }
 
 .team-item {
-  margin-top: 72px;
+  width: 264px;
   background-color: var(--color-background);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -525,9 +526,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) {
-  .team-title {
-    margin-bottom: 72px;
-  }
   .team-list {
     display: flex;
     flex-wrap: wrap;
